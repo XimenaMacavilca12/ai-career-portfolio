@@ -1,0 +1,415 @@
+{
+  "title": "AI Consulting Portfolio Agile Plan",
+  "status": "Proposed",
+  "updated": "2026-11-17",
+  "themes": [
+    {
+      "id": "T1",
+      "title": "Make my direction clear",
+      "outcome": "Position an aspiring AI consultant around useful problems and a transparent approach."
+    },
+    {
+      "id": "T2",
+      "title": "Build trust through evidence",
+      "outcome": "Let projects, sources, and honest reflection demonstrate my current capabilities."
+    },
+    {
+      "id": "T3",
+      "title": "Make collaboration easy",
+      "outcome": "Give visitors a clear next step and learn from their feedback."
+    }
+  ],
+  "stories": [
+    {
+      "theme": "T1",
+      "epic": "E1",
+      "screen": "Home / positioning",
+      "id": "S1.1",
+      "title": "Understand my focus",
+      "story": "As a prospective collaborator, I want to understand my AI and Information Systems focus so I can decide whether to explore my work.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 1",
+      "dependencies": [],
+      "acceptance_criteria": "The hero identifies Ximena, Information Systems at NJIT, expected graduation January 2029, and an aspiring AI consulting / FDE direction. It makes no claim of established client experience.",
+      "tasks": [
+        {
+          "id": "S1.1.T1",
+          "description": "Draft a concise positioning statement."
+        },
+        {
+          "id": "S1.1.T2",
+          "description": "Connect the hero to Projects and Consulting Approach."
+        },
+        {
+          "id": "S1.1.T3",
+          "description": "Check education details and remove unsupported claims."
+        }
+      ],
+      "personas": []
+    },
+    {
+      "theme": "T1",
+      "epic": "E1",
+      "screen": "Home / positioning",
+      "id": "S1.2",
+      "title": "Choose my next step",
+      "story": "As a first-time visitor, I want to find the main areas of the portfolio so I can reach relevant evidence quickly.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 1",
+      "dependencies": [
+        "S1.1"
+      ],
+      "acceptance_criteria": "Career research, projects, consulting approach, and contact are reachable through clearly labeled links. Links work on narrow screens and by keyboard.",
+      "tasks": [
+        {
+          "id": "S1.2.T1",
+          "description": "Simplify the main navigation."
+        },
+        {
+          "id": "S1.2.T2",
+          "description": "Add descriptive calls to action."
+        },
+        {
+          "id": "S1.2.T3",
+          "description": "Check page destinations and keyboard focus."
+        }
+      ],
+      "personas": []
+    },
+    {
+      "theme": "T1",
+      "epic": "E2",
+      "screen": "Consulting approach",
+      "id": "S2.1",
+      "title": "Explore proposed capabilities",
+      "story": "As a prospective collaborator, I want to see the types of work I am developing toward so I can assess whether a conversation would be useful.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 1",
+      "dependencies": [
+        "S1.1"
+      ],
+      "acceptance_criteria": "The page describes workflow discovery, scoped AI prototyping, and evaluation/documentation as developing capabilities. Each has an example deliverable and a clear scope limit.",
+      "tasks": [
+        {
+          "id": "S2.1.T1",
+          "description": "Draft three capability descriptions."
+        },
+        {
+          "id": "S2.1.T2",
+          "description": "Connect each to relevant existing work or a labeled future project."
+        },
+        {
+          "id": "S2.1.T3",
+          "description": "Review wording so learning goals are distinct from delivered services."
+        }
+      ],
+      "personas": []
+    },
+    {
+      "theme": "T1",
+      "epic": "E2",
+      "screen": "Consulting approach",
+      "id": "S2.2",
+      "title": "Understand the process",
+      "story": "As a project partner, I want to understand the steps from discovery to handoff so I know how the work could be scoped and reviewed.",
+      "priority": "Should",
+      "status": "Proposed",
+      "iteration": "Iteration 2",
+      "dependencies": [
+        "S2.1"
+      ],
+      "acceptance_criteria": "Discover \u2192 Define \u2192 Prototype \u2192 Evaluate \u2192 Handoff is explained. Each step names an output and a feedback checkpoint; no guaranteed business results are promised.",
+      "tasks": [
+        {
+          "id": "S2.2.T1",
+          "description": "Write an example discovery brief and success criteria."
+        },
+        {
+          "id": "S2.2.T2",
+          "description": "Show the five process steps with deliverables."
+        },
+        {
+          "id": "S2.2.T3",
+          "description": "Add a change-request and scope-review checkpoint."
+        }
+      ],
+      "personas": [
+        "P2"
+      ]
+    },
+    {
+      "theme": "T2",
+      "epic": "E3",
+      "screen": "Project directory",
+      "id": "S3.1",
+      "title": "Browse relevant projects",
+      "story": "As a technical reviewer, I want to filter projects by skill and project type so I can find evidence relevant to a role or problem.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 1",
+      "dependencies": [],
+      "acceptance_criteria": "Project cards show a short summary, relevant skills, repository link, and an honest status. Filters distinguish software, web/design, research, and introductory exercises; clearing filters restores all projects.",
+      "tasks": [
+        {
+          "id": "S3.1.T1",
+          "description": "Reuse the reviewed public-repository summaries."
+        },
+        {
+          "id": "S3.1.T2",
+          "description": "Add category metadata and accessible filter controls."
+        },
+        {
+          "id": "S3.1.T3",
+          "description": "Check combined filters, reset, and an empty-result state."
+        }
+      ],
+      "personas": [
+        "P1"
+      ]
+    },
+    {
+      "theme": "T2",
+      "epic": "E3",
+      "screen": "Project directory",
+      "id": "S3.2",
+      "title": "Inspect source evidence",
+      "story": "As a technical reviewer, I want to open the source behind a project claim so I can assess the evidence myself.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 1",
+      "dependencies": [
+        "S3.1"
+      ],
+      "acceptance_criteria": "Repository and evidence links are labeled and match each summary. Team projects identify shared ownership. Private repositories and empty exercises are not presented as completed client work.",
+      "tasks": [
+        {
+          "id": "S3.2.T1",
+          "description": "Verify the source link for each featured claim."
+        },
+        {
+          "id": "S3.2.T2",
+          "description": "Keep starter, unfinished, and team labels visible."
+        },
+        {
+          "id": "S3.2.T3",
+          "description": "Check external links and document the review date."
+        }
+      ],
+      "personas": [
+        "P1"
+      ]
+    },
+    {
+      "theme": "T2",
+      "epic": "E4",
+      "screen": "Project case study",
+      "id": "S4.1",
+      "title": "Understand a case study",
+      "story": "As a portfolio reviewer, I want to understand a project\u2019s problem, approach, and result so I can assess relevant engineering and delivery reasoning.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 2",
+      "dependencies": [
+        "S3.2"
+      ],
+      "acceptance_criteria": "At least one case study contains context, problem, scope, approach, evidence, and limitations. Results distinguish observed behavior from proposed benefits; no client, metric, or outcome is invented. Technical reviewers can find the implementation flow, source links, and a documented check or an explicit evidence gap. Delivery reviewers can find intended users, scope, and the evidence or unmeasured status of the outcome.",
+      "tasks": [
+        {
+          "id": "S4.1.T1",
+          "description": "Choose one repository with sufficient evidence."
+        },
+        {
+          "id": "S4.1.T2",
+          "description": "Write the problem, implementation flow, and source links."
+        },
+        {
+          "id": "S4.1.T3",
+          "description": "Add verification evidence, outcome labels, and a verified screenshot or demo when available."
+        },
+        {
+          "id": "S4.1.T4",
+          "description": "Review the case study using both persona perspectives."
+        }
+      ],
+      "personas": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "theme": "T2",
+      "epic": "E4",
+      "screen": "Project case study",
+      "id": "S4.2",
+      "title": "Understand my contribution",
+      "story": "As a hiring manager, I want to distinguish my contribution and learning from team or AI assistance so I can assess my actual experience.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 2",
+      "dependencies": [
+        "S4.1"
+      ],
+      "acceptance_criteria": "The case study labels individual, team, template, and AI-assisted work where applicable. Unconfirmed ownership is marked for confirmation; a learning reflection identifies a concrete decision or limitation.",
+      "tasks": [
+        {
+          "id": "S4.2.T1",
+          "description": "Ask Ximena to confirm her contribution."
+        },
+        {
+          "id": "S4.2.T2",
+          "description": "Document tool or template assistance accurately."
+        },
+        {
+          "id": "S4.2.T3",
+          "description": "Review every ownership and proficiency statement."
+        }
+      ],
+      "personas": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "theme": "T2",
+      "epic": "E5",
+      "screen": "About / career direction",
+      "id": "S5.1",
+      "title": "Understand my background",
+      "story": "As a recruiter, I want to see my education and relevant experience so I can place my projects in context.",
+      "priority": "Should",
+      "status": "Proposed",
+      "iteration": "Iteration 2",
+      "dependencies": [
+        "S1.1"
+      ],
+      "acceptance_criteria": "Education uses the updated major and January 2029 date. Customer-facing, leadership, and programming experience is tied to the r\u00e9sum\u00e9 without assuming old roles are current.",
+      "tasks": [
+        {
+          "id": "S5.1.T1",
+          "description": "Adapt the existing profile into a concise About section."
+        },
+        {
+          "id": "S5.1.T2",
+          "description": "Connect transferable experience to project examples."
+        },
+        {
+          "id": "S5.1.T3",
+          "description": "Confirm current role dates before changing their status."
+        }
+      ],
+      "personas": []
+    },
+    {
+      "theme": "T2",
+      "epic": "E5",
+      "screen": "About / career direction",
+      "id": "S5.2",
+      "title": "Review my career reasoning",
+      "story": "As a professor or mentor, I want to follow the sources and reasoning behind my career choices so I can give specific feedback.",
+      "priority": "Should",
+      "status": "Proposed",
+      "iteration": "Iteration 2",
+      "dependencies": [
+        "S5.1"
+      ],
+      "acceptance_criteria": "The existing three-career comparison remains linked, including source dates, eligibility limitations, and the roadmap. Proposed consulting positioning does not imply those job requirements are already met.",
+      "tasks": [
+        {
+          "id": "S5.2.T1",
+          "description": "Link the current career research and roadmap."
+        },
+        {
+          "id": "S5.2.T2",
+          "description": "Cross-check source and timeline labels."
+        },
+        {
+          "id": "S5.2.T3",
+          "description": "Ask a reviewer to locate an original employer source."
+        }
+      ],
+      "personas": []
+    },
+    {
+      "theme": "T3",
+      "epic": "E6",
+      "screen": "Contact / next step",
+      "id": "S6.1",
+      "title": "Start a conversation",
+      "story": "As a prospective collaborator, I want to find a clear way to contact me so I can discuss a project, internship, or feedback.",
+      "priority": "Must",
+      "status": "Proposed",
+      "iteration": "Iteration 1",
+      "dependencies": [
+        "S1.2"
+      ],
+      "acceptance_criteria": "A contact section links to the existing LinkedIn profile and names useful conversation topics. It does not imply that a form submission or booking system exists.",
+      "tasks": [
+        {
+          "id": "S6.1.T1",
+          "description": "Add the verified LinkedIn link."
+        },
+        {
+          "id": "S6.1.T2",
+          "description": "Draft a short invitation and suggested message topics."
+        },
+        {
+          "id": "S6.1.T3",
+          "description": "Check the link and accessible label."
+        }
+      ],
+      "personas": []
+    },
+    {
+      "theme": "T3",
+      "epic": "E6",
+      "screen": "Contact / next step",
+      "id": "S6.2",
+      "title": "Prepare a useful inquiry",
+      "story": "As a potential project partner, I want to see what information to include in my message so our first conversation has a clear starting point.",
+      "priority": "Should",
+      "status": "Proposed",
+      "iteration": "Iteration 2",
+      "dependencies": [
+        "S6.1",
+        "S2.2"
+      ],
+      "acceptance_criteria": "A short checklist asks for the problem, intended users, available non-sensitive sample data, constraints, and desired outcome. It avoids requesting passwords, credentials, or private customer records.",
+      "tasks": [
+        {
+          "id": "S6.2.T1",
+          "description": "Write a five-item discovery checklist."
+        },
+        {
+          "id": "S6.2.T2",
+          "description": "Explain that scope is agreed after discussion."
+        },
+        {
+          "id": "S6.2.T3",
+          "description": "Review with one classmate for clarity."
+        }
+      ],
+      "personas": [
+        "P2"
+      ]
+    }
+  ],
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Maya",
+      "company_context": "Google Cloud",
+      "fictional": true,
+      "page": "personas.html#google"
+    },
+    {
+      "id": "P2",
+      "name": "Jordan",
+      "company_context": "Accenture",
+      "fictional": true,
+      "page": "personas.html#accenture"
+    }
+  ]
+}
